@@ -1,0 +1,28 @@
+.footer_info {
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-text {
+    font-family: var(--primary-font);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.developed-by {
+    text-align: center;
+    padding: 1em;
+    color: var(--white);
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.by-name {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--primary-font);
+    font-weight: 700;
+}
