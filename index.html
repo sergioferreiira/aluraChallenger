@@ -14,13 +14,28 @@
     <header class="header">
         <div class="header_itens">
             <div class="header_logo">
-                <img src="img/Logo1 1.svg" alt="Logo da CodeChella">
+                <img src="img/Logo1 1.svg" alt="Logo da CodeChella" class="logo-code">
             </div>
-            <div class="header_icons">
-                <a href="#" class="header_links">A experiência</a>
-                <a href="#" class="header_links">Mapa de Setores</a>
-                <a href="#" class="header_links">Informações</a>
-                <a href="#" class="header_links">Ingresso</a>
+            <ul class="header_icons">
+              <li><a href="#" class="header_links">A experiência</a></li>  
+              <li><a href="#" class="header_links">Mapa de Setores</a></li>  
+              <li><a href="#" class="header_links">Informações</a></li>  
+              <li><a href="#" class="header_links">Ingresso</a></li>  
+            </ul>
+            <div class="container">
+                <input type="checkbox" id="menu" class="menu_hamburguer">
+                <label for="menu">
+                    <span class="container__hamburger"> <img src="img/hamburguer.svg" alt=""></span>
+                </label>
+                <ul class="hamburguer-itens">
+                    <li class="hamburguer-links"><a href="#" class="links">A experiência</a></li>
+                    <hr>
+                    <li class="hamburguer-links"><a href="#" class="links">Mapa de Setores</a></li>
+                    <hr>
+                    <li class="hamburguer-links"><a href="#" class="links">Informações</a></li>
+                    <hr>
+                    <li class="hamburguer-links"><a href="#" class="links">Ingresso</a></li>
+                </ul>
             </div>
         </div>
     </header>
@@ -110,7 +125,8 @@
             </div>
         </div>
         <div class="developed">
-            <h3 class="developed-by">Developed by <a href="https://www.linkedin.com/in/dev-sergioferreira/" class="by-name">Sergio Ferreira</a></h3>
+            <h3 class="developed-by">Developed by <a href="https://www.linkedin.com/in/dev-sergioferreira/"
+                    class="by-name">Sergio Ferreira</a></h3>
         </div>
     </main>
 </body>
