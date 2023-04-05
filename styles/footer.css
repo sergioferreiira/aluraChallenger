@@ -25,4 +25,16 @@
     color: var(--white);
     font-family: var(--primary-font);
     font-weight: 700;
+    background-color: var(--primary-color);
+    padding: 0.6em;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.6);
+}
+
+.by-name:hover {
+    background-color: #4650bd88;
+    padding: 0.7em;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.6);
 }
