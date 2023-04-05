@@ -19,4 +19,14 @@
     text-decoration: none;
     color: var(--white);
     margin: 0 1em 0 0;
+    
+}
+
+@media screen and (max-width: 768px){
+    .header_itens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
 }

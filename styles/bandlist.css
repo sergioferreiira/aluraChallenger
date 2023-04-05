@@ -23,7 +23,6 @@ hr {
     font-family: var(--secundary-font);
     font-weight: 400;
     font-size: 48px;
-    /* margin-bottom: 0.5em; */
     background-color: var(--background-text);
 }
 
@@ -62,4 +61,10 @@ hr {
     font-weight: 500;
     font-size: 32px;
     padding: 1em;
+}
+
+@media screen and (max-width: 728px) {
+    .band-list {
+        margin: 1em;
+    }
 }

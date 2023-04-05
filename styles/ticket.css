@@ -31,7 +31,7 @@
     margin: auto;
     background-color: var(--primary-color);
     padding: 0.6em;
-    width: 40%;
+    width: 50%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.6);
 }
@@ -44,7 +44,19 @@
 
 .ticket-link:hover {
     background-color: #4650bd88;
-    width: 42%;
+    width: 52%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 768px) {
+    .ticket {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .ticket-image {
+        width: 80%;
+    }
+    
 }
