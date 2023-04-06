@@ -1,0 +1,93 @@
+.sectors-map {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.image-main {
+    text-align: center;
+    margin: auto;
+}
+
+.width-image {
+    width: 90%;
+    margin: 1em;
+
+}
+
+.info-image {
+    margin: auto;
+}
+
+.title-list {
+    list-style: none;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--white);
+    padding: 0.5em;
+}
+
+.itens-list {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--white);
+    list-style: none;
+    padding: 0.5em;
+
+}
+
+.sector-detail {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px; 
+    color: var(--white);
+    padding: 0.5em;
+}
+
+.info-pictures {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 2em;
+}
+
+.pictures-space {
+    margin: 3em;
+}
+
+.pictures-sectors {
+    width: 100%;
+}
+
+.picture-down {
+    margin: 50% 3em 0;
+}
+
+.texts {
+    margin: 1em;
+}
+.description-title {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px; 
+    color: var(--white);
+    padding: 0.5em;
+}
+
+.description-text {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px; 
+    color: var(--white);
+    padding: 0.5em;
+}

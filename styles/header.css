@@ -23,7 +23,7 @@
     text-align: center;
     font-family: var(--primary-font);
     font-weight: 700;
-    font-size: 60%;
+    font-size: 90%;
 }
 
 .header_links {
@@ -74,7 +74,7 @@
     display: block;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1174px){
     .logo-code {
         width: 50%;
         padding: 1em;
@@ -91,7 +91,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
     .container {
         display: block;
     }
