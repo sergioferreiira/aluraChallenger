@@ -22,6 +22,7 @@ hr {
 .line_up-day {
     font-family: var(--secundary-font);
     font-weight: 400;
+    padding: 1em;
     font-size: 28px;
     background-color: var(--background-text);
 }
