@@ -1,5 +1,8 @@
-.banner {
-    background-image: url("../img/Banner.svg");
+.banner,
+.banner-2,
+.banner-exp,
+.banner-maps,
+.banner-information {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -7,46 +10,31 @@
     box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.603);
     width: auto;
     height: auto;
-    width: auto;
+}
+
+.banner {
+    background-image: url("../img/Banner.svg");
 }
 
 .banner-2 {
     background-image: url("../img/Imagem.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 13.8%;
-    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.603);
-    width: auto;
-    height: auto;
     position: relative;
 }
-
 
 /* EXPERIENCE.HTML */
 
 .banner-exp {
     background-image: url("../img/exp/Banner.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 13.8%;
-    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.603);
-    width: auto;
-    height: auto;
-    width: auto;
 }
 
 /* MAPS.HTML */
 
 .banner-maps {
     background-image: url("../img/maps/Banner.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 13.8%;
-    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.603);
-    width: auto;
-    height: auto;
-    width: auto;
+}
+
+/* INFORMATION.CSS */
+
+.banner-information {
+    background-image: url("../img/information/Banner.svg");
 }

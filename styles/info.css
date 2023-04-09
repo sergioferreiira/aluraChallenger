@@ -1,0 +1,73 @@
+.banner-information {
+    background: url("/img/information/Banner.svg");
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+}
+
+#accordion {
+    width: 60%;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
+
+.title {
+    color: var(--white);
+    padding: 1em;
+    
+}
+
+.sub-title {
+    color: black;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    text-align: left;
+    padding: 0.5em;
+    font-weight: 500;
+    display: block;
+    margin: auto 0px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.info-text {
+    text-align: left;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 1px 5px 5px;
+    padding: 0 10px;
+}
+
+
+ .accordions .list {
+    position: relative;
+    list-style: none;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px 8px rgba(0, 0, 0, 0.315);
+}
+
+.accordions .list +.list {
+    margin-top: 30px;
+}
+
+
+#accordion input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+#accordion input[type=checkbox]:checked~ .info-text {
+    height: 0;
+}
+
+

@@ -91,3 +91,15 @@
     color: var(--white);
     padding: 0.5em;
 }
+
+@media screen and (max-width: 550px) {
+    .sectors-map {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .info-pictures {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
