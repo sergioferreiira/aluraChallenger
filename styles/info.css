@@ -64,4 +64,17 @@
     display: none;
 }
 
+@media screen and (max-width: 650px) {
+    #accordion {
+        width: 65%;
+        margin: auto;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+}
 
