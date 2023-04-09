@@ -6,6 +6,7 @@
 @import url("styles/experience.css");
 @import url("styles/map.css");
 @import url("styles/info.css");
+@import url("styles/register.css");
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@100;400;500;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@100;400;700&display=swap');
 
@@ -29,14 +30,15 @@
 .section_main,
 .main-maps,
 .section_main-exp,
-.information-main
+.information-main,
+.main-register
  {
     background: var(--gradient);
 }
 
 @media screen and (max-width: 500px) {
     .developed-by {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 

@@ -2,12 +2,13 @@
 .banner-2,
 .banner-exp,
 .banner-maps,
-.banner-information {
+.banner-information,
+.banner-ticket {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 13.8%;
-    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.603);
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.603);
     width: auto;
     height: auto;
 }
@@ -29,12 +30,18 @@
 
 /* MAPS.HTML */
 
-.banner-information {
-    background-image: url("../img/information/Banner.svg");
+.banner-maps {
+    background-image: url("../img/maps/Banner.svg");
 }
 
 /* INFORMATION.CSS */
 
 .banner-information {
-    background-image: url("../img/maps/Banner.svg");
+    background-image: url("../img/information/Banner.svg");
+}
+
+/* TICKET.CSS */
+
+.banner-ticket {
+    background-image: url("../img/ticket/Banner.svg");
 }
